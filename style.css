@@ -1,0 +1,80 @@
+.logo {
+  text-align: center;
+  z-index: 10;
+}
+
+.logo img {
+  position: fixed;
+  height: 128px;
+  display: flex;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.pool {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.vasak {
+  left: 0;
+  background: radial-gradient(
+    879px at 10.4% 22.3%,
+    rgb(255, 235, 238) 0%,
+    rgb(186, 190, 245) 93.6%
+  );
+}
+
+.parem {
+  right: 0;
+  background: linear-gradient(to right, #0083b0, #00b4db);
+}
+
+.keskel {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.keskel img {
+  width: 128px;
+  border: 50%;
+}
+
+button {
+  margin-top: 10px;
+  font-weight: 800;
+  background: none;
+  border: 1px solid white;
+  cursor: pointer;
+  display: inline-block;
+  color: white;
+  border-radius: 5px;
+  width: 7em;
+  padding: 0.2em;
+  font-size: 1.2em;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a,
+button:hover {
+  text-decoration: none;
+  border-color: rgb(190, 190, 190);
+  cursor: pointer;
+}
