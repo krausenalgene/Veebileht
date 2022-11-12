@@ -57,10 +57,9 @@ button {
   margin-top: 10px;
   font-weight: 800;
   background: none;
-  border: 1px solid white;
+  border: 1px solid;
   cursor: pointer;
   display: inline-block;
-  color: white;
   border-radius: 5px;
   width: 7em;
   padding: 0.2em;
