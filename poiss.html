@@ -6,17 +6,22 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="subpage_style.css">
+  <script src="pildivahetaja.js"></script>
   <title>Poiss</title>
 </head>
 
 <body class="parem">
   <div>
-    <button>Multikad</button>
-    <button>Toidud</button>
-    <button>Halloween</button>
-    <button>Kuulsused</button>
-    <button>Ajalugu</button>
-    <button>Kangelased</button>
+    <button onclick="vahetaPilti('multikad', 'poiss');">Multikad</button>
+    <button onclick="vahetaPilti('toidud', 'poiss');">Toidud</button>
+    <button onclick="vahetaPilti('halloween', 'poiss');">Halloween</button>
+    <button onclick="vahetaPilti('jõulud', 'poiss');">Jõulud</button>
+    <button onclick="vahetaPilti('ajalugu', 'poiss');">Ajalugu</button>
+    <button onclick="vahetaPilti('kangelased', 'poiss');">Kangelased</button>
+  </div>
+  <div class="pilt-konteiner">
+    <img class="pilt--keskel" src="images/valikategooria.png" id="kostüümipilt" alt="pilt">
   </div>
 </body>
 

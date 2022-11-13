@@ -1,0 +1,10 @@
+.pilt-konteiner {
+    display: grid;
+    height: 100%;
+}
+
+.pilt--keskel {
+    max-width: 100%;
+    max-height: 90vh;
+    margin: auto;
+}
