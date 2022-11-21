@@ -8,3 +8,21 @@
     max-height: 90vh;
     margin: auto;
 }
+.header img {
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+
+.buttonheaderis {
+    color: black;
+    border: 0px solid pink;
+    width: 10em;
+    padding: 0.2em;
+    font-size: 3em;
+    font-family:"American Typewriter", sherif;
+
+}
+.buttonheaderis:hover {
+    box-shadow: 0 0px 0px rgb(72, 72, 72);
+}

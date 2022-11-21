@@ -61,9 +61,11 @@ button {
   cursor: pointer;
   display: inline-block;
   border-radius: 5px;
-  width: 7em;
+  width: 8em;
   padding: 0.2em;
   font-size: 1.2em;
+  font-family:"American Typewriter", sherif;
+  
 }
 
 a {
@@ -76,4 +78,5 @@ button:hover {
   text-decoration: none;
   border-color: rgb(190, 190, 190);
   cursor: pointer;
+  box-shadow: 0 5px 3px rgb(72, 72, 72);
 }
