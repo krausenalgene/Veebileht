@@ -31,11 +31,27 @@
     rgb(255, 235, 238) 0%,
     rgb(186, 190, 245) 93.6%
   );
+  animation: gradient 3s ease infinite;
+  background-size: 400% 400%;
 }
 
 .parem {
   right: 0;
   background: linear-gradient(to right, #0083b0, #00b4db);
+  animation: gradient 3s ease infinite;
+  background-size: 400% 400%;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 .keskel {
@@ -64,8 +80,7 @@ button {
   width: 8em;
   padding: 0.2em;
   font-size: 1.2em;
-  font-family:"American Typewriter", sherif;
-  
+  font-family: "American Typewriter", sherif;
 }
 
 a {
