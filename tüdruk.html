@@ -1,36 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="subpage_style.css" />
+    <script src="pildivahetaja.js"></script>
+    <title>Tüdruk</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="subpage_style.css">
-  <script src="pildivahetaja.js"></script>
-  <title>Tüdruk</title>
-</head>
-
-<body class="vasak">
-  <header>
-    <div class="header">
-      <img src="images/logo.png" alt="kostüümiabi logo">
-      <button class="button buttonheaderis" onclick="window.location.href='index.html'">KOSTÜÜMIABI</button>
+  <body class="tydruk">
+    <header>
+      <div class="header">
+        <img src="images/logo.png" alt="kostüümiabi logo" />
+        <button
+          class="button buttonheaderis"
+          onclick="window.location.href='index.html'"
+        >
+          KOSTÜÜMIABI
+        </button>
+      </div>
+    </header>
+    <div class="menuu">
+      <button onclick="vahetaPilti('multikad', 'tüdruk');">Multikad</button>
+      <button onclick="vahetaPilti('toidud', 'tüdruk');">Toidud</button>
+      <button onclick="vahetaPilti('halloween', 'tüdruk');">Halloween</button>
+      <button onclick="vahetaPilti('jõulud', 'tüdruk');">Jõulud</button>
+      <button onclick="vahetaPilti('ajalugu', 'tüdruk');">Ajalugu</button>
+      <button onclick="vahetaPilti('kangelased', 'tüdruk');">Kangelased</button>
     </div>
-  </header>
-  <div>
-    <button onclick="vahetaPilti('multikad', 'tüdruk');">Multikad</button>
-    <button onclick="vahetaPilti('toidud', 'tüdruk');">Toidud</button>
-    <button onclick="vahetaPilti('halloween', 'tüdruk');">Halloween</button>
-    <button onclick="vahetaPilti('jõulud', 'tüdruk');">Jõulud</button>
-    <button onclick="vahetaPilti('ajalugu', 'tüdruk');">Ajalugu</button>
-    <button onclick="vahetaPilti('kangelased', 'tüdruk');">Kangelased</button>
-  </div>
-  <div class="pilt-konteiner">
-    <img class="pilt--keskel" src="images/valikategooria.png" id="kostüümipilt-1" alt="pilt-1">
-    <img class="pilt--keskel" src="images/1x_img.jpeg" id="kostüümipilt-2" alt="pilt-2">
-    <img class="pilt--keskel" src="images/1x_img.jpeg" id="kostüümipilt-3" alt="pilt-3">
-  </div>
-</body>
-
+    <div class="pilt-konteiner">
+      <img
+        class="pilt--keskel"
+        src="images/valikategooria.jpg"
+        id="kostüümipilt-1"
+        alt="pilt-1"
+      />
+      <img
+        class="pilt--keskel"
+        src="images/1x_img.jpeg"
+        id="kostüümipilt-2"
+        alt="pilt-2"
+      />
+      <img
+        class="pilt--keskel"
+        src="images/1x_img.jpeg"
+        id="kostüümipilt-3"
+        alt="pilt-3"
+      />
+    </div>
+  </body>
 </html>
