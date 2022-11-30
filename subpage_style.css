@@ -1,28 +1,93 @@
+.poiss {
+  background: linear-gradient(to right, #0083b0, #00b4db);
+  animation: gradient 3s ease infinite;
+  background-size: 400% 400%;
+}
+
+.tydruk {
+  background: linear-gradient(to right, rgb(255, 235, 238), rgb(186, 190, 245));
+  animation: gradient 3s ease infinite;
+  background-size: 400% 400%;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
 .pilt-konteiner {
-    display: grid;
-    height: 100%;
+  display: grid;
+  height: 100%;
+  margin-top: 2rem;
+}
+
+.menuu {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
 }
 
 .pilt--keskel {
-    max-width: 100%;
-    max-height: 90vh;
-    margin: auto;
+  max-height: 40vh;
+  margin: auto;
+  border-radius: 30px;
+  margin-bottom: 2rem;
 }
+
 .header img {
-    float: left;
-    width: 100px;
-    height: 100px;
+  float: left;
+  width: 100px;
+  height: 100px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
 }
 
 .buttonheaderis {
-    color: black;
-    border: 0px solid pink;
-    width: 10em;
-    padding: 0.2em;
-    font-size: 3em;
-    font-family:"American Typewriter", sherif;
-
+  color: black;
+  border: 0px solid pink;
+  width: 10em;
+  padding: 0.2em;
+  font-size: 3em;
+  font-family: "American Typewriter", sherif;
+  text-align: center;
 }
 .buttonheaderis:hover {
-    box-shadow: 0 0px 0px rgb(72, 72, 72);
+  box-shadow: 0 0px 0px rgb(72, 72, 72);
+}
+
+button {
+  margin-top: 10px;
+  font-weight: 800;
+  background: none;
+  border: 1px solid;
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 5px;
+  width: 8em;
+  padding: 0.2em;
+  font-size: 1.2em;
+  font-family: "American Typewriter", sherif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a,
+button:hover {
+  text-decoration: none;
+  border-color: rgb(190, 190, 190);
+  cursor: pointer;
+  box-shadow: 0 5px 3px rgb(72, 72, 72);
 }
